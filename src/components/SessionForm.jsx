@@ -18,7 +18,7 @@ const SessionForm = () => {
 
   return (
     <div className="flex flex-col items-center justify-center gap-4 mt-10">
-      <div className="flex flex-col gap-2 p-4 w-[600px] bg-[#ffffff] rounded-2xl shadow-lg">
+      <div className="flex flex-col gap-2 p-4 max-w-[90%] w-[600px] bg-[#ffffff] rounded-2xl shadow-lg">
         <h2 className="text-2xl font-bold text-center">Create a New Session</h2>
 
         <form

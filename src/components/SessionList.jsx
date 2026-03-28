@@ -18,7 +18,7 @@ const SessionList = () => {
   );
 
   return (
-    <div className="max-w-[900px] mx-auto">
+    <div className="max-w-[90%] w-[900px] mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <h2 className="text-xl font-bold text-gray-800">
           Study Sessions ({filtered.length})
@@ -60,7 +60,7 @@ const SessionList = () => {
         </p>
         </div>
       ) : (
-        <div className="grid gap-4 grid-cols-3 mt-5">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
           {filtered.map((session) => (
             <SessionCard key={session.id} session={session} />
           ))}
